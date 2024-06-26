@@ -10,7 +10,23 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    if (number1 < number2):
+        if (number1 < number3): 
+            min_value = number1
+        else:
+            min_value = number3
+            
+    else:
+        if (number2 < number3):
+            min_value = number2
+        else:
+            min_value = number3
+ 
+    print(f'Values: \t{number1} \t {number2} \t {number3}')        
+    print(f'Min Value is: {min_value}')
+        
+        
+        
     ########################################
     # Do not delete the return statement
     ########################################
